@@ -26,7 +26,7 @@ on:
 
 env:
   AWS_REGION: ap-southeast-2
-  ECR_REGISTRY: 966391709212.dkr.ecr.ap-southeast-2.amazonaws.com/user07-k8s-cluster-repo
+  ECR_REGISTRY: 966391709212.dkr.ecr.ap-southeast-2.amazonaws.com
   ECR_REPOSITORY: user07-k8s-cluster-repo
   IMAGE_TAG: ${{ github.sha }}
 
